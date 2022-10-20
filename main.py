@@ -43,17 +43,7 @@ def sign_in(meetingid, password):
     pyautogui.write(password)
     pyautogui.press('enter')
        
-sign_in(2343242342, 2342342)
-
-# df = pd.read_excel("E:\Zoom automation\timings.xlsx")
-
-# while True:
-#     now = datetime.now().strftime("%H:%M")
-#     if now in str(df['timings']):
-
-#         row = df.loc[df["timings"]== now]
-#         m_id = str(row.iloc[0,1])
-#         m_pswd = str(row.iloc[0,2])
+sign_in("23432432432", "2342342")
 
 
 
