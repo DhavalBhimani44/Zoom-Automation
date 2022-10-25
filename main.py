@@ -2,7 +2,6 @@ from datetime import datetime
 import os
 import pyautogui
 import time
-import pandas as pd
 
 def sign_in(meetingid, password):
     #opens zoom app
@@ -15,6 +14,8 @@ def sign_in(meetingid, password):
     join_button = pyautogui.locateCenterOnScreen("E:\Zoom automation\images\join_button.png")
     pyautogui.moveTo(join_button)
     pyautogui.click()
+
+    time.sleep(1)
 
     #meeting id
     meeting_id_btn = pyautogui.locateCenterOnScreen("E:\Zoom automation\images\meetingid_button.png")
@@ -43,7 +44,7 @@ def sign_in(meetingid, password):
     pyautogui.write(password)
     pyautogui.press('enter')
        
-sign_in("23432432432", "2342342")
+sign_in("87519384607", "mip9ce")
 
 
 
